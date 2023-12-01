@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ .navigation {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      padding: 0;
+      margin: 0;
+      Font-size: 16px;
+      Font-family: Franklin Gothic ATF;
+      Margin-left: 47rem;
+      Margin-top: 3rem;
+
+    }
+
+
+.navigation ul {
+      List-style-type: none;
+    }
+
+.navigation li {
+ 
+  display: inline-block;
+  margin-right: 25px; /* the spacing between the words */
+  
+}
+
+.navigation ul li a{
+     Text-decoration: none;
+     Color: #453127;
+
+
+    
+}
+
+.container {
+  Font-family: Utopia Std;
+  position: relative;
+  text-align: center;
+  color: #453127;
+  Font-size: 40px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+  Font-weight: bold;
+}
+
+Body {
+    Background-color: #fef8f2;
+}
+
+ .grid-container {
+      display: grid;
+      grid-template-rows: repeat(5, 1fr); /* five rows with equal height */
+      grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+      height: 100vh; /* Full height of the viewport */
+      Grid-gap: 5px;
+
+
+    }
+
+.grid-item {
+      text-align: left;
+      Margin: 3rem;
+    }
+
+H1 {
+    Margin-left: 3rem;
+    Margin-top: 2rem;
+    Margin-bottom: 1rem;
+    Font-Size: 30px;
+    Color: #453127;
+
+}
+
+
+H2 {
+    Margin-left: 0rem;
+    Margin-bottom: 2rem;
+    Font-Size: 30px;
+    Color: #453127;
+
+
+}
+
+P {
+    Margin-left: 0rem;
+    Font-family: Franklin Gothic ATF;
+    Font-Size: 20px;
+}
+
+.grid-item ul {
+      Font-family: Franklin Gothic ATF;
+      Font-Size: 18px;
+      Line-height: 40px;
+      Margin-left: 1rem;
+      Margin-top: 2rem;
+    }
+
+H3 {
+    Margin-bottom: 1rem;
+    Font-Size: 30px;
+    Color: #453127;
+
+
+}
+
+ .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      background-color: #2a3e23;
+      color: #fff;
+      border-radius: 10px;
+      Margin-top: 2rem;
+      Font-family: Franklin Gothic ATF;
+    }
+
+
+H4 {
+    Margin-left: 0rem;
+    Margin-top: 0rem;
+    Margin-bottom: 5rem;
+    Font-Size: 30px;
+    Color: #453127;
+
+}
+
+H5 {
+    Margin-left: 0rem;
+    Margin-bottom: 2rem;
+    Font-Size: 30px;
+    Color: #453127;
+
+
+}
+
+ footer {
+      background-color: #7c5a6c;
+      color: #fff;
+      padding: 50px 20px 20px 60px;
+      Text-align: left;
+      position: bottom;
+      width: 100%;
+      display: grid;
+      Grid-template-columns: repeat(3, 1fr); /* Three rows with equal height */
+      Font-family: Franklin Gothic ATF;
+      Font-size: 13px;
+      Margin-top: 110rem;
+      Height: 7rem;
+    }
+
+.container-2 {
+  Font-family: Utopia Std;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  Font-size: 80px;
+
+
+}
+
+.bottom-right-2 {
+  position: absolute;
+  bottom: 110px;
+  Left: 41rem;
+  Font-weight: bold;
+
+}
+
+ .navigation-2 {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      padding: 0;
+      margin: 0;
+      Font-size: 16px;
+      Font-family: Franklin Gothic ATF;
+      Margin-left: 47rem;
+      Margin-top: 3rem;
+
+    }
+
+
+.navigation-2 ul {
+      List-style-type: none;
+    }
+
+.navigation-2 li {
+ 
+  display: inline-block;
+  margin-right: 25px; /* the spacing between the words */
+  
+}
+
+.navigation-2 ul li a{
+     Text-decoration: none;
+     Color: #ffffff;
+
+}
+
+Footer {
+      background-color: #7c5a6c;
+      color: #fff;
+      padding: 50px 20px 20px 60px;
+      Text-align: left;
+      position: bottom;
+      width: 100%;
+      display: grid;
+      Grid-template-columns: repeat(3, 1fr); /* Three rows with equal height */
+      Font-family: Franklin Gothic ATF;
+      Font-size: 13px;
+      Margin-top: 110rem;
+      Height: 7rem;
+    }
+
+H7 {
+    Margin-bottom: 1rem;
+    Margin-top: 2rem;
+    Margin-left: 0rem;
+    Font-Size: 90px;
+    Color: #453127;
+    Font-weight: bold;
+    Font-family: utopia std;
+    Text-align: center;
+
+
+}
+
+.grid-item ol {
+      Font-family: Franklin Gothic ATF;
+      Font-Size: 18px;
+      Line-height: 40px;
+      Margin-top: 5rem;
+    }
+
+
+figcaption {
+     Margin-left: 0;
+     Font-family: Franklin Gothic ATF;
+     Font-size: 13px;
+     Margin-top: 1rem;
+     }
+
+ .grid-container-2 {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr); /* five rows with equal height */
+      grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+      height: 100vh; /* Full height of the viewport */
+      Grid-gap: 5px;
+
+    }
+
+.footer-2 {
+      background-color: #7c5a6c;
+      color: #fff;
+      padding: 50px 20px 20px 60px;
+      Text-align: left;
+      position: bottom;
+      width: 100%;
+      display: grid;
+      Grid-template-columns: repeat(3, 1fr); /* Three rows with equal height */
+      Font-family: Franklin Gothic ATF;
+      Font-size: 13px;
+      Margin-top: 50rem;
+      Height: 7rem;
+    }
+
+table {
+    border: 2px solid #3399CC;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 1em;
+    border: 2px solid #2a3e23;
+    text-align: center;
+    text-align: left;
+    Font-family: Franklin Gothic ATF;
+    Color: #453127;
+}
+
+th {
+    padding: 1em;
+    border: 2px solid #2a3e23;
+    Font-family: Utopia STD;
+    Color: #453127;
+}
+
+.text {
+    text-align: left;
+    Font-family: Franklin Gothic ATF;
+    Color: #453127;
+}
+
+  form {
+        width: 60%;
+        max-width: 30em;
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: 6em 1fr;
+        Margin-top: 2rem;
+    }
+
+    input [type="submit"] {
+        grid-column: 2 /3;
+        width: 9em;
+    }
+
+Label {
+    Font-family: Franklin Gothic ATF;
+    Color: #453127;
+}
+.footer-3 {
+      background-color: #7c5a6c;
+      color: #fff;
+      padding: 50px 20px 20px 60px;
+      Text-align: left;
+      position: bottom;
+      width: 100%;
+      display: grid;
+      Grid-template-columns: repeat(3, 1fr); /* Three rows with equal height */
+      Font-family: Franklin Gothic ATF;
+      Font-size: 13px;
+      Margin-top: 0rem;
+      Height: 7rem;
+    }
+
+H8 {
+    Margin-left: 0rem;
+    Font-Size: 20px;
+    Color: #453127;
+    Font-family: Franklin Gothic ATF;
+  
+}
+
+ .button-2 {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      background-color: #2a3e23;
+      color: #fff;
+      border-radius: 10px;
+      Margin-top: 1rem;
+      Font-family: Franklin Gothic ATF;
+      Margin-bottom: 2rem;
+    }
